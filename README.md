@@ -1,4 +1,7 @@
-# test coverage for  [q-io (v1.13.2)](http://github.com/kriskowal/q-io/)  [![npm package](https://img.shields.io/npm/v/npmtest-q-io.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-q-io) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-q-io.svg)](https://travis-ci.org/npmtest/node-npmtest-q-io)
+# npmtest-q-io
+
+#### basic test coverage for  [q-io (v1.13.2)](http://github.com/kriskowal/q-io/)  [![npm package](https://img.shields.io/npm/v/npmtest-q-io.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-q-io) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-q-io.svg)](https://travis-ci.org/npmtest/node-npmtest-q-io)
+
 #### IO using Q promises
 
 [![NPM](https://nodei.co/npm/q-io.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/q-io)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-q-io/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-q-io/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-q-io/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-q-io/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-q-io/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-q-io/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-q-io/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-q-io/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-q-io/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-q-io/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-q-io/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-q-io/build/coverage.html/index.html)
 
@@ -103,7 +106,8 @@
         "test": "jasmine-node spec",
         "test-browser": "opener spec/q-spec.html"
     },
-    "version": "1.13.2"
+    "version": "1.13.2",
+    "bin": {}
 }
 ```
 
